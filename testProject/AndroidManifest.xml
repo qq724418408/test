@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bocop.jxplatform"
+    android:versionCode="317"
+    android:versionName="3.1.7" >
+
+    <!-- android:versionName="3.0.3" -->
+    <!-- package="com.bocop.jxplatform" -->
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <!-- 摇一摇 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 摄像头权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.GET_TASKS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 蓝牙分享所需的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <!-- 百度地图定位功能所需权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="com.boc.jx.base.BaseApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/bocjx"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme" >
+        <activity
+            android:name=".activity.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="splash"
+                    android:scheme="cundong" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.sharesdk.demo.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".trafficassistant.TrafficAssistantMainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".trafficassistant.TrafficSuccessActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.TrafficZhengxinActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".trafficassistant.TrafficPhoneActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.LicensePhoneAddActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.PayHisActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.CarInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.CarPhoneAddActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.CarAddActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.LicenseInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.LicenseAddActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.CarPeccancyActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.TrafficQuickPayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.TrafficPayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.MyPeccancyActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.TrafficViolationActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.TrafficPaySuccessActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.BocOpWebActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.NotificationUpdateActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.TrafficAgrementActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.AbountActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.DynamicPswdActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".trafficassistant.Help"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".activity.MainActivity$LoginReceive" >
+            <intent-filter>
+                <action android:name="com.bocop.jxplatform.login" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.bocop.jxplatform.fragment.PersonalFragment$LoginReceive" >
+            <intent-filter>
+                <action android:name="com.bocop.jxplatform.login" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".trafficassistant.DownloadServicevice" >
+        </service>
+
+        <!--
+       <service android:name="com.bocop.xms.service.SoundService" >
+        </service>
+        -->
+
+        <activity
+            android:name=".activity.ShowWebActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.BMJFActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.ZqtFirstActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.HDTActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.marketCodeAddActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.MarketCodeInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.KhtFirstActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.FptFristActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.GjtFirstActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.TourActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.HTZQActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.WEIHUIActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.LYTActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.CFTActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.CardActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.InformalLoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.CreditCardActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.JIEHUIActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.ZYEDActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.GjtZyedActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.EXYActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.BocOpenWebActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name="com.bocop.xms.activity.MessageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xms.activity.ZqtActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xms.activity.YbtActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xms.activity.SignOverViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xms.activity.XmsFirstActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xms.activity.SignContractActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xms.activity.FinanceSignContractActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xms.activity.FinanceAgrementActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xms.activity.SignContractCompleteActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xms.activity.UserManagerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xms.activity.ExchangeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.xms.activity.RateActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.xms.activity.XmsWebActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.jxplatform.activity.WebActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.jxplatform.activity.WebForZytActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.jxplatform.activity.WebViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.jxplatform.activity.SoftwareWebActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.jxplatform.activity.WebViewGetTitleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.jxplatform.activity.WebDialogActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogCustom" />
+
+        <!-- android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" -->
+
+        <activity
+            android:name="com.bocop.user.WebViewUserActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.jxplatform.activity.BocH5WebViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.jxplatform.activity.WebViewForGjsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.jxplatform.activity.WebTitleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.xms.activity.MetalActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.xms.activity.OrgActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.xms.activity.AtmActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.xms.activity.FundActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.xms.activity.InvestActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.xms.activity.TrainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.bocop.xms.activity.FlightActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <!-- <service android:name="com.bocop.xms.push.service.OnlineService" > -->
+        <!-- </service> -->
+
+
+        <!-- <receiver -->
+        <!-- android:name="com.bocop.xms.push.receiver.TickAlarmReceiver" -->
+        <!-- android:label="@string/app_name" > -->
+        <!-- </receiver> -->
+        <!-- <receiver -->
+        <!-- android:name="com.bocop.xms.push.receiver.ConnectivityAlarmReceiver" -->
+        <!-- android:label="@string/app_name" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- <receiver -->
+        <!-- android:name="com.bocop.xms.push.receiver.BootAlarmReceiver" -->
+        <!-- android:label="@string/app_name" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+
+        <!-- 工薪贷 -->
+        <activity
+            android:name="com.bocop.yfx.activity.LoanMainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.LoanActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.myloan.RemainingSumPickUpActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.loanprodetail.RealNameAuthentActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.loanprodetail.PersonalInfoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.loanprodetail.PreviewAuthentInfoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.loanprodetail.InfoSubmitResultActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.loanprodetail.InfoAccreditActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.loanprodetail.ReferenceAccreditActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.loanprodetail.LimitTreatyActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.loanprodetail.WorkUnitInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.myloan.PickAffirmActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.myloan.PickUpAffirmActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.StageMainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.EShareActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.TrainsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.stageprodetail.BindCardActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.stageprodetail.CashApplyActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.stageprodetail.PreviewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.stageprodetail.OrderAffirmActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.stageprodetail.ApplySuccessActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.myloan.RefundInAdvanceActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.myloan.RefundSuccessActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.yfx.activity.myloan.RecordsListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 健康通 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.JKETActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+
+        <!-- 积分商城 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.JFSCActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+
+        <!-- 中银易融 -->
+        <activity
+            android:name="com.bocop.zyyr.activity.FinanceMainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.zyyr.activity.UserCenterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.zyyr.activity.ProductDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.zyyr.activity.ApplyLoanActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.zyyr.activity.ApplyAffirmActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.zyyr.activity.MyLoanActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.zyyr.activity.LoanDetailsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.zyyr.activity.AuthentInfoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.zyyr.activity.AuthentInfoCheckActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+        <!-- 反馈页面 -->
+        <activity
+            android:name="com.bocop.mail.FeedbackActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <!-- txm -->
+        <!-- 洗车服务 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.CarWashServiceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 加油服务 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.AddGasOilServiceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 选车服务 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.selectcar.SelectCarServiceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- ETC优惠政策介绍 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.ETCFavourableIntroducesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 分期购车优惠 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.FQGActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.FQGCActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 违章流程处理 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.IllegalprocessActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- ETC 申请 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.ETCApplyActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 高速ETC -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.ETCHighWayActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- ETC优惠活动 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.ETCFavourablePromotionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- ETC网点预约申请 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.ETCNetworkAppointmentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- ETC城市 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.ETCCityActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 地图相关 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.MapListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 品牌介绍 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.selectcar.BrandIntroductionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 选车 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.selectcar.SelectCarActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 定位图层 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.LocationOverlayDemo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 车惠通首页 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.RiderFristActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 易商理财 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.FinancesActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 易商理财 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.MoneySelectWebView"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 中险直销 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.selectcar.InsuranceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 首页广告条轮播图 点进去的详细activity -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.HomeAdvDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 车惠通 广告条轮播图 点进去的详细activity -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.riders.CyhAdvDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.jxplatform.activity.FindPasswordActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.jxplatform.gesture.MineSetGesturePwdActivity"
+            android:configChanges="keyboardHidden|keyboard|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.jxplatform.activity.way.pattern.UnlockGesturePasswordActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.jxplatform.activity.way.pattern.GuideGesturePasswordActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.jxplatform.activity.way.pattern.CreateGesturePasswordActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.jxplatform.gesture.MineGesturePwdActivity"
+            android:configChanges="keyboardHidden|keyboard|screenSize"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 公积金查询 -->
+        <activity
+            android:name="com.bocop.yfx.activity.FundQueryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 签证 通首页 -->
+        <activity
+            android:name="com.bocop.qzt.QztFristActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.qzt.QztMainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.qzt.QztMoreCountryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.jxplatform.activity.YPTActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.qzt.QztApplyActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bocop.qzt.QztProcessActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.qzt.QztApplyCompleteActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.qzt.QztAttentionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.qzt.QztDocActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.qzt.QztOrderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.qzt.QztOrderSureActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.qzt.QztProgressActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.qzt.QztPayActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.qzt.QztContactActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.qzt.QztContactInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.gm.GoldManagerActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bocop.zyyr.fpt.FPTActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 小秘书二期 -->
+        <activity
+            android:name="com.bocop.xms.activity.XmsMainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xms.activity.RemindManageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 大转盘 -->
+        <activity
+            android:name="com.bocop.jxplatform.activity.DZPActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 引导页面 -->
+        <activity
+            android:name="com.bocop.xms.activity.GuideActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <!-- 我的消息 -->
+        <activity
+            android:name="com.bocop.xms.activity.MyMessageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <!-- 缴费提醒 -->
+        <activity
+            android:name="com.bocop.xms.activity.PayRemindActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <!-- 自定义提醒 -->
+        <activity
+            android:name="com.bocop.xms.activity.CustomRemindActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <!-- 开户通 -->
+        <activity
+            android:name="com.bocop.kht.activity.KhtActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.yfx.activity.ConsultationActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.cft.activity.CftActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.bocop.xms.service.AlarmService" />
+
+        <!-- 新易贷 -->
+        <activity
+            android:name="com.bocop.xyd.activity.Xyd_IndexActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xyd.activity.Xyd_ActivateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xyd.activity.Xyd_ApplyingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xyd.activity.Xyd_ApplyResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xyd.activity.Xyd_NowRepayingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xyd.activity.Xyd_PactForLoansActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xyd.activity.Xyd_RepayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xyd.activity.Xyd_RepayActivity_New"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xyd.activity.Xyd_RepayAheadOfTimeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xyd.activity.Xyd_UseMoneyDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xyd.activity.Xyd_WebActivity"
+            android:screenOrientation="portrait" />
+        <!-- 消费金融 -->
+        <activity
+            android:name="com.bocop.xfjr.activity.XFJRLoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.bocop.xfjr.activity.XFJRApplicationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xfjr.activity.XfjrIndexActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xfjr.activity.XFJRSearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bocop.xfjr.activity.XFJRSearchResultActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的业务 -->
+        <activity
+            android:name="com.bocop.xfjr.activity.customer.XFJRMyBusinessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xfjr.activity.merchant.XFJRMyBusinessActivity"
+            android:screenOrientation="portrait" />
+        <!-- 业务详情 -->
+        <activity
+            android:name="com.bocop.xfjr.activity.customer.XFJRBusinessDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 业务详情 -->
+        <activity
+            android:name="com.bocop.xfjr.activity.merchant.XFJRFilterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bocop.xfjr.activity.XfjrPreViewActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 消费金融检测一整块 -->
+        <activity
+            android:name="com.bocop.xfjr.activity.customer.XfjrMainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.megvii.idcardlib.IDCardScanActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.megvii.livenesslib.LivenessActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <!-- 银行卡扫描 -->
+        <activity
+            android:name="com.megvii.demo.BankCardScanActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.megvii.demo.ResultActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <!-- <service android:name="com.bocop.xms.service.SoundService" /> -->
+
+        <receiver
+            android:name="com.bocop.xms.receiver.TickAlarmReceiver"
+            android:label="@string/app_name" >
+        </receiver>
+        <receiver
+            android:name="com.bocop.xms.receiver.BootAlarmReceiver"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <!-- 中银推送（jar中使用的服务及广播） -->
+        <service
+            android:name="com.bocop.gopushlibrary.service.GoPushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.bocop.intent.action.GoPushService" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.bocop.gopushlibrary.service.GoPushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+
+                <!-- 开机（未使用开机启动服务） -->
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.bocop.xms.receiver.MyReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+
+                <!-- Required 接受在线消息 -->
+                <action android:name="com.bocop.jxplatform.intent.GET_ONLINE_MSG" />
+                <!-- Required 接受离线消息 -->
+                <action android:name="com.bocop.jxplatform.intent.GET_OFFLINE_MSG" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="clientKey"
+            android:value="386" />
+        <meta-data
+            android:name="clientSecret"
+            android:value="269f8e525d1d2fc9a002e68c667c4200b5176a2d47518faffe" />
+
+        <!-- 百度地图 -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="UNMwPrTDFXaGO9q1TKhzdwR1cHBDzjcb" >
+        </meta-data>
+        
+        <!-- 百度地图定位服务 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+        <!--
+         151  2790ee699700a86b17d80a3f43e962cea18038a52f6db5f6ae
+         135  1a81251559c665e5fc99df206c1b851ce5b77f18c89fb89f86
+        -->
+
+        <meta-data
+            android:name="host"
+            android:value="openapi.boc.cn/esm" />
+        <!-- 内网：22.188.36.253：8090 -->
+        <!-- 外网：101.231.206.142：80 -->
+        <meta-data
+            android:name="port"
+            android:value="80" />
+
+        <receiver
+            android:name="com.bocop.xms.receiver.NotificationReceiver"
+            android:enabled="true" >
+        </receiver>
+    </application>
+
+</manifest>

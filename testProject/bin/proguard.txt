@@ -1,0 +1,1203 @@
+# view res/layout/design_navigation_item.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# view res/layout/design_navigation_menu.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# view res/layout/layout_snackbar.xml #generated:18
+# view sw600dp-v13\res/layout-sw600dp-v13/layout_snackbar.xml #generated:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# view res/layout/xfjr_layout_application_status_tab.xml #generated:10
+-keep class android.support.design.widget.TabLayout { <init>(...); }
+
+# view res/layout/xfjr_layout_application_status_tab.xml #generated:20
+-keep class android.support.v4.view.PagerTitleStrip { <init>(...); }
+
+# view res/layout/activity_gdt_forzh.xml #generated:46
+# view res/layout/activity_gjtfrist.xml #generated:42
+# view res/layout/activity_trafficmypeccancy.xml #generated:16
+# view res/layout/fragment_home.xml #generated:32
+# view res/layout/xfjr_activity_main_business.xml #generated:21
+# view res/layout/xfjr_layout_application_status_tab.xml #generated:15
+# view res/layout/xyd_activity_repay.xml #generated:72
+# view res/layout/yfx_fragment_loan_pro_detail_fpt.xml #generated:53
+# view res/layout/zyyr_layout_ad.xml #generated:22
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:130
+# view res/layout/xfjr_activity_login.xml #generated:101
+# view res/layout/xfjr_activity_login.xml #generated:133
+# view res/layout/xfjr_activity_login.xml #generated:145
+# view res/layout/xfjr_activity_login.xml #generated:156
+# view res/layout/xfjr_activity_login.xml #generated:170
+# view res/layout/xfjr_activity_login.xml #generated:184
+# view res/layout/xfjr_activity_login.xml #generated:45
+# view res/layout/xfjr_activity_login.xml #generated:66
+# view res/layout/xfjr_activity_login.xml #generated:78
+# view res/layout/xfjr_activity_login.xml #generated:89
+# view res/layout/xfjr_fragment_detail_add_data_info.xml #generated:206
+# view res/layout/xfjr_fragment_detail_add_data_info.xml #generated:219
+# view res/layout/xfjr_fragment_detail_basic_info.xml #generated:327
+# view res/layout/xfjr_fragment_detail_basic_info.xml #generated:366
+# view res/layout/xfjr_fragment_detail_basic_info.xml #generated:405
+# view res/layout/xfjr_fragment_detail_basic_info.xml #generated:444
+# view res/layout/xfjr_fragment_detail_basic_info.xml #generated:485
+# view res/layout/xfjr_fragment_detail_basic_info.xml #generated:499
+# view res/layout/xfjr_fragment_detail_basic_info.xml #generated:504
+# view res/layout/xfjr_fragment_detail_risk_predecision_info.xml #generated:42
+# view res/layout/xfjr_fragment_fraud_detection1.xml #generated:364
+# view res/layout/xfjr_fragment_fraud_detection2.xml #generated:118
+# view res/layout/xfjr_fragment_fraud_detection3.xml #generated:54
+# view res/layout/xfjr_fragment_fraud_detection3.xml #generated:83
+# view res/layout/xfjr_fragment_fraud_detection4.xml #generated:107
+# view res/layout/xfjr_fragment_fraud_detection5.xml #generated:259
+# view res/layout/xfjr_fragment_fraud_detection6.xml #generated:73
+# view res/layout/xfjr_fragment_further_info.xml #generated:144
+# view res/layout/xfjr_fragment_new_application.xml #generated:365
+# view res/layout/xfjr_fragment_pretrial_customer_type_info.xml #generated:120
+# view res/layout/xfjr_fragment_pretrial_customer_type_info.xml #generated:133
+# view res/layout/xfjr_fragment_pretrial_customer_type_info.xml #generated:164
+# view res/layout/xfjr_fragment_pretrial_customer_type_info.xml #generated:195
+# view res/layout/xfjr_fragment_pretrial_customer_type_info.xml #generated:200
+# view res/layout/xfjr_fragment_pretrial_customer_type_info.xml #generated:58
+# view res/layout/xfjr_fragment_pretrial_customer_type_info.xml #generated:89
+# view res/layout/xfjr_item_business_detail_basic_approve.xml #generated:73
+# view res/layout/xfjr_item_pretrial_new.xml #generated:104
+# view res/layout/xfjr_item_pretrial_new.xml #generated:134
+# view res/layout/xfjr_item_pretrial_new.xml #generated:139
+# view res/layout/xfjr_item_pretrial_new.xml #generated:149
+# view res/layout/xfjr_item_pretrial_new.xml #generated:180
+# view res/layout/xfjr_item_pretrial_new.xml #generated:211
+# view res/layout/xfjr_item_pretrial_new.xml #generated:216
+# view res/layout/xfjr_item_pretrial_new.xml #generated:73
+# view res/layout/xfjr_item_search_result_between.xml #generated:31
+# view res/layout/xfjr_item_search_result_button.xml #generated:32
+# view res/layout/xfjr_item_search_result_top.xml #generated:32
+# view res/layout/xfjr_layout_search_result.xml #generated:265
+# view res/layout/xfjr_layout_search_result.xml #generated:276
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.internal.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.internal.widget.ContentFrameLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:48
+-keep class android.support.v7.internal.widget.DialogTitle { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.internal.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.internal.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view res/layout/abc_action_mode_close_item_material.xml #generated:17
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:27
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:37
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:48
+# view res/layout/abc_search_view.xml #generated:116
+# view res/layout/abc_search_view.xml #generated:128
+# view res/layout/abc_search_view.xml #generated:38
+# view res/layout/abc_search_view.xml #generated:60
+# view res/layout/abc_search_view.xml #generated:97
+-keep class android.support.v7.internal.widget.TintImageView { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.internal.widget.ViewStubCompat { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/xfjr_activity_filter.xml #generated:166
+# view res/layout/xfjr_activity_search.xml #generated:60
+# view res/layout/xfjr_fragment_detail_basic_info.xml #generated:331
+# view res/layout/xfjr_layout_customer_property_info.xml #generated:34
+# view res/layout/xfjr_layout_search_result.xml #generated:269
+# view res/layout/xfjr_my_application_fragment.xml #generated:8
+# view res/layout/xfjr_viewstub_instalment_home.xml #generated:50
+# view res/layout/xyd_activity_repay_new.xml #generated:67
+# view res/layout/xyd_item_repay_viewpager.xml #generated:2
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:78
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view res/layout/activity_webview.xml #generated:23
+-keep class android.webkit.WebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class cn.sharesdk.demo.wxapi.WXEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1119
+-keep class com.baidu.location.f { <init>(...); }
+
+# view res/layout/activity_maplist.xml #generated:78
+-keep class com.baidu.mapapi.map.TextureMapView { <init>(...); }
+
+# view res/layout/activity_fptfrist.xml #generated:28
+# view res/layout/activity_gjtfrist.xml #generated:17
+# view res/layout/activity_khtfrist.xml #generated:28
+# view res/layout/activity_qztfrist.xml #generated:28
+# view res/layout/activity_qztmain.xml #generated:28
+# view res/layout/activity_zqt_first.xml #generated:23
+-keep class com.boc.jx.ab.view.sliding.AbSlidingPlayView { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.boc.jx.base.BaseApplication { <init>(...); }
+
+# view res/layout/yfx_activity_preview_authent_info.xml #generated:12
+# view res/layout/yfx_activity_records_list.xml #generated:9
+# view res/layout/yfx_activity_refund_in_advance.xml #generated:11
+# view res/layout/yfx_activity_remaining_sum_pick_up.xml #generated:11
+# view res/layout/yfx_fragment_loan_pro_detail.xml #generated:10
+# view res/layout/yfx_fragment_loan_pro_detail_fpt.xml #generated:9
+# view res/layout/yfx_fragment_records.xml #generated:7
+# view res/layout/yfx_fragment_refund.xml #generated:6
+# view res/layout/yfx_fragment_unread_message.xml #generated:8
+# view res/layout/yfx_fragment_useloan.xml #generated:10
+# view res/layout/zyyr_activity_authent_info.xml #generated:10
+# view res/layout/zyyr_activity_fina_main.xml #generated:10
+# view res/layout/zyyr_activity_loan_details.xml #generated:13
+# view res/layout/zyyr_activity_pro_details.xml #generated:12
+# view res/layout/zyyr_fragment_loan_all.xml #generated:7
+-keep class com.boc.jx.view.LoadingView { <init>(...); }
+
+# view res/layout/activity_gdt_forzh.xml #generated:51
+# view res/layout/activity_gjtfrist.xml #generated:47
+# view res/layout/fragment_home.xml #generated:37
+# view res/layout/yfx_fragment_loan_pro_detail_fpt.xml #generated:58
+# view res/layout/zyyr_layout_ad.xml #generated:27
+-keep class com.boc.jx.view.indicator.CirclePageIndicator { <init>(...); }
+
+# view res/layout/xms_activity_message.xml #generated:20
+# view res/layout/xms_activity_user_manager.xml #generated:10
+# view res/layout/zyyr_fragment_loan_all.xml #generated:15
+-keep class com.boc.jx.view.swipemenulistview.SwipeMenuListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:955
+-keep class com.bocop.cft.activity.CftActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:900
+-keep class com.bocop.gm.GoldManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1082
+-keep class com.bocop.gopushlibrary.service.GoPushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:1073
+-keep class com.bocop.gopushlibrary.service.GoPushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:246
+-keep class com.bocop.jxplatform.activity.BMJFActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:444
+-keep class com.bocop.jxplatform.activity.BocH5WebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:346
+-keep class com.bocop.jxplatform.activity.BocOpenWebActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:306
+-keep class com.bocop.jxplatform.activity.CFTActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:311
+-keep class com.bocop.jxplatform.activity.CardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:321
+-keep class com.bocop.jxplatform.activity.CreditCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:921
+-keep class com.bocop.jxplatform.activity.DZPActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:341
+-keep class com.bocop.jxplatform.activity.EXYActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:804
+-keep class com.bocop.jxplatform.activity.FindPasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:276
+-keep class com.bocop.jxplatform.activity.FptFristActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:281
+-keep class com.bocop.jxplatform.activity.GjtFirstActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:336
+-keep class com.bocop.jxplatform.activity.GjtZyedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:256
+-keep class com.bocop.jxplatform.activity.HDTActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:291
+-keep class com.bocop.jxplatform.activity.HTZQActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:794
+-keep class com.bocop.jxplatform.activity.HomeAdvDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:316
+-keep class com.bocop.jxplatform.activity.InformalLoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:636
+-keep class com.bocop.jxplatform.activity.JFSCActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:326
+-keep class com.bocop.jxplatform.activity.JIEHUIActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:629
+-keep class com.bocop.jxplatform.activity.JKETActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:271
+-keep class com.bocop.jxplatform.activity.KhtFirstActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:301
+-keep class com.bocop.jxplatform.activity.LYTActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:211
+-keep class com.bocop.jxplatform.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:217
+-keep class com.bocop.jxplatform.activity.MainActivity$LoginReceive { <init>(...); }
+
+# view AndroidManifest.xml #generated:266
+-keep class com.bocop.jxplatform.activity.MarketCodeInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:242
+-keep class com.bocop.jxplatform.activity.ShowWebActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:421
+-keep class com.bocop.jxplatform.activity.SoftwareWebActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.bocop.jxplatform.activity.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:286
+-keep class com.bocop.jxplatform.activity.TourActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:296
+-keep class com.bocop.jxplatform.activity.WEIHUIActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:406
+-keep class com.bocop.jxplatform.activity.WebActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:431
+-keep class com.bocop.jxplatform.activity.WebDialogActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:411
+-keep class com.bocop.jxplatform.activity.WebForZytActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:454
+-keep class com.bocop.jxplatform.activity.WebTitleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:416
+-keep class com.bocop.jxplatform.activity.WebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:449
+-keep class com.bocop.jxplatform.activity.WebViewForGjsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:426
+-keep class com.bocop.jxplatform.activity.WebViewGetTitleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:851
+-keep class com.bocop.jxplatform.activity.YPTActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:331
+-keep class com.bocop.jxplatform.activity.ZYEDActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:251
+-keep class com.bocop.jxplatform.activity.ZqtFirstActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:261
+-keep class com.bocop.jxplatform.activity.marketCodeAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:694
+-keep class com.bocop.jxplatform.activity.riders.AddGasOilServiceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:689
+-keep class com.bocop.jxplatform.activity.riders.CarWashServiceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:800
+-keep class com.bocop.jxplatform.activity.riders.CyhAdvDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:725
+-keep class com.bocop.jxplatform.activity.riders.ETCApplyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:748
+-keep class com.bocop.jxplatform.activity.riders.ETCCityActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:704
+-keep class com.bocop.jxplatform.activity.riders.ETCFavourableIntroducesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:736
+-keep class com.bocop.jxplatform.activity.riders.ETCFavourablePromotionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:730
+-keep class com.bocop.jxplatform.activity.riders.ETCHighWayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:742
+-keep class com.bocop.jxplatform.activity.riders.ETCNetworkAppointmentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:709
+-keep class com.bocop.jxplatform.activity.riders.FQGActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:713
+-keep class com.bocop.jxplatform.activity.riders.FQGCActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:778
+-keep class com.bocop.jxplatform.activity.riders.FinancesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:719
+-keep class com.bocop.jxplatform.activity.riders.IllegalprocessActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:768
+-keep class com.bocop.jxplatform.activity.riders.LocationOverlayDemo { <init>(...); }
+
+# view AndroidManifest.xml #generated:753
+-keep class com.bocop.jxplatform.activity.riders.MapListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:783
+-keep class com.bocop.jxplatform.activity.riders.MoneySelectWebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:773
+-keep class com.bocop.jxplatform.activity.riders.RiderFristActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:758
+-keep class com.bocop.jxplatform.activity.selectcar.BrandIntroductionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:788
+-keep class com.bocop.jxplatform.activity.selectcar.InsuranceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:763
+-keep class com.bocop.jxplatform.activity.selectcar.SelectCarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:699
+-keep class com.bocop.jxplatform.activity.selectcar.SelectCarServiceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:823
+-keep class com.bocop.jxplatform.activity.way.pattern.CreateGesturePasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:818
+-keep class com.bocop.jxplatform.activity.way.pattern.GuideGesturePasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:813
+-keep class com.bocop.jxplatform.activity.way.pattern.UnlockGesturePasswordActivity { <init>(...); }
+
+# view res/layout/gesturepassword_create.xml #generated:129
+# view res/layout/gesturepassword_unlock.xml #generated:105
+-keep class com.bocop.jxplatform.activity.way.view.LockPatternView { <init>(...); }
+
+# view AndroidManifest.xml #generated:222
+-keep class com.bocop.jxplatform.fragment.PersonalFragment$LoginReceive { <init>(...); }
+
+# view AndroidManifest.xml #generated:828
+-keep class com.bocop.jxplatform.gesture.MineGesturePwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:808
+-keep class com.bocop.jxplatform.gesture.MineSetGesturePwdActivity { <init>(...); }
+
+# view res/layout/login_locus_activity.xml #generated:24
+# view res/layout/set_new_locus_password_activity.xml #generated:81
+-keep class com.bocop.jxplatform.gesture.view.LocusPassWordView { <init>(...); }
+
+# view AndroidManifest.xml #generated:199
+-keep class com.bocop.jxplatform.trafficassistant.AbountActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:187
+-keep class com.bocop.jxplatform.trafficassistant.BocOpWebActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class com.bocop.jxplatform.trafficassistant.CarAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class com.bocop.jxplatform.trafficassistant.CarInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class com.bocop.jxplatform.trafficassistant.CarPeccancyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class com.bocop.jxplatform.trafficassistant.CarPhoneAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:228
+-keep class com.bocop.jxplatform.trafficassistant.DownloadServicevice { <init>(...); }
+
+# view AndroidManifest.xml #generated:203
+-keep class com.bocop.jxplatform.trafficassistant.DynamicPswdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:207
+-keep class com.bocop.jxplatform.trafficassistant.Help { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class com.bocop.jxplatform.trafficassistant.LicenseAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class com.bocop.jxplatform.trafficassistant.LicenseInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class com.bocop.jxplatform.trafficassistant.LicensePhoneAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class com.bocop.jxplatform.trafficassistant.MyPeccancyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:191
+-keep class com.bocop.jxplatform.trafficassistant.NotificationUpdateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.bocop.jxplatform.trafficassistant.PayHisActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class com.bocop.jxplatform.trafficassistant.TrafficAgrementActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.bocop.jxplatform.trafficassistant.TrafficAssistantMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class com.bocop.jxplatform.trafficassistant.TrafficPayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class com.bocop.jxplatform.trafficassistant.TrafficPaySuccessActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:131
+-keep class com.bocop.jxplatform.trafficassistant.TrafficPhoneActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:167
+-keep class com.bocop.jxplatform.trafficassistant.TrafficQuickPayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.bocop.jxplatform.trafficassistant.TrafficSuccessActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:179
+-keep class com.bocop.jxplatform.trafficassistant.TrafficViolationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:126
+-keep class com.bocop.jxplatform.trafficassistant.TrafficZhengxinActivity { <init>(...); }
+
+# view res/layout/layout_activity_denglu.xml #generated:12
+# view res/layout/layout_activity_notitle.xml #generated:12
+# view res/layout/layout_activity_title.xml #generated:12
+# view res/layout/layout_activity_title_right.xml #generated:12
+# view res/layout/xms_layout_activity_title_image.xml #generated:12
+# view res/layout/zyyr_layout_activity_title.xml #generated:12
+# view res/layout/zyyr_layout_info_activity_title.xml #generated:12
+-keep class com.bocop.jxplatform.view.BackButton { <init>(...); }
+
+# view res/layout/activity_bmjf.xml #generated:34
+# view res/layout/activity_exchange.xml #generated:34
+# view res/layout/activity_htzq.xml #generated:34
+# view res/layout/activity_jket.xml #generated:33
+# view res/layout/activity_software_web.xml #generated:34
+# view res/layout/ayout_activity_title_html.xml #generated:48
+# view res/layout/layout_activity_notitle.xml #generated:38
+# view res/layout/layout_activity_title.xml #generated:37
+# view res/layout/layout_activity_title1.xml #generated:48
+# view res/layout/layout_activity_title_right.xml #generated:39
+# view res/layout/layout_activity_titlehtml.xml #generated:48
+# view res/layout/webview_layout.xml #generated:33
+-keep class com.bocop.jxplatform.view.HomepageButton { <init>(...); }
+
+# view res/layout/activity_fptfrist.xml #generated:44
+# view res/layout/activity_qztfrist.xml #generated:44
+# view res/layout/activity_qztmain.xml #generated:104
+# view res/layout/activity_qztmain.xml #generated:44
+# view res/layout/fragment_home.xml #generated:121
+# view res/layout/fragment_home.xml #generated:164
+# view res/layout/fragment_home.xml #generated:208
+# view res/layout/fragment_home.xml #generated:255
+# view res/layout/fragment_home.xml #generated:300
+# view res/layout/fragment_home.xml #generated:76
+# view res/layout/xms_activity_message.xml #generated:101
+# view res/layout/xms_activity_message.xml #generated:146
+# view res/layout/xms_activity_message.xml #generated:56
+# view res/layout/xms_activity_xms_main.xml #generated:117
+# view res/layout/xms_activity_xms_main.xml #generated:36
+# view res/layout/xms_activity_xms_main.xml #generated:63
+# view res/layout/xms_activity_xms_main.xml #generated:90
+# view res/layout/xms_fragment_thrid_service.xml #generated:26
+# view res/layout/xms_fragment_thrid_service.xml #generated:52
+# view res/layout/xms_fragment_thrid_service.xml #generated:79
+-keep class com.bocop.jxplatform.view.MyGridView { <init>(...); }
+
+# view res/layout/activity_ybt.xml #generated:48
+# view res/layout/activity_zqt.xml #generated:47
+# view res/layout/fragment_personal.xml #generated:51
+# view res/layout/fragment_personal.xml #generated:62
+# view res/layout/fragment_personal.xml #generated:73
+# view res/layout/xms_activity_first.xml #generated:47
+# view res/layout/xms_activity_first.xml #generated:58
+# view res/layout/xms_activity_first.xml #generated:82
+# view res/layout/yfx_activity_cash_apply.xml #generated:185
+# view res/layout/yfx_fragment_records.xml #generated:106
+# view res/layout/yfx_fragment_records.xml #generated:60
+-keep class com.bocop.jxplatform.view.MyListView { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:39
+# view res/layout/activity_main.xml #generated:45
+# view res/layout/activity_main.xml #generated:51
+-keep class com.bocop.jxplatform.view.TabButton { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:11
+-keep class com.bocop.jxplatform.view.riders.NoScrollViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:947
+-keep class com.bocop.kht.activity.KhtActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:682
+-keep class com.bocop.mail.FeedbackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:855
+-keep class com.bocop.qzt.QztApplyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:864
+-keep class com.bocop.qzt.QztApplyCompleteActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:868
+-keep class com.bocop.qzt.QztAttentionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:892
+-keep class com.bocop.qzt.QztContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:896
+-keep class com.bocop.qzt.QztContactInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:872
+-keep class com.bocop.qzt.QztDocActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:839
+-keep class com.bocop.qzt.QztFristActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:843
+-keep class com.bocop.qzt.QztMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:847
+-keep class com.bocop.qzt.QztMoreCountryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:876
+-keep class com.bocop.qzt.QztOrderActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:880
+-keep class com.bocop.qzt.QztOrderSureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:888
+-keep class com.bocop.qzt.QztPayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:860
+-keep class com.bocop.qzt.QztProcessActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:884
+-keep class com.bocop.qzt.QztProgressActivity { <init>(...); }
+
+# view res/layout/qzt_morecountry_activity.xml #generated:22
+-keep class com.bocop.qzt.view.BladeView { <init>(...); }
+
+# view res/layout/qzt_custom_node_listview_item.xml #generated:17
+-keep class com.bocop.qzt.view.CustomListView { <init>(...); }
+
+# view res/layout/qzt_custom_node_listview_item.xml #generated:9
+-keep class com.bocop.qzt.view.CustomNodeLineView { <init>(...); }
+
+# view res/layout/qzt_activity_progress.xml #generated:19
+-keep class com.bocop.qzt.view.CustomNodeListView { <init>(...); }
+
+# view res/layout/qzt_logistics_info_item_line.xml #generated:11
+# view res/layout/qzt_logistics_info_item_line.xml #generated:21
+# view res/layout/qzt_logistics_info_item_line.xml #generated:31
+-keep class com.bocop.qzt.view.CustomTextView { <init>(...); }
+
+# view res/layout/qzt_morecountry_activity.xml #generated:14
+-keep class com.bocop.qzt.view.PinnedHeaderListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:439
+-keep class com.bocop.user.WebViewUserActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1002
+-keep class com.bocop.xfjr.activity.XFJRApplicationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:997
+-keep class com.bocop.xfjr.activity.XFJRLoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1009
+-keep class com.bocop.xfjr.activity.XFJRSearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1013
+-keep class com.bocop.xfjr.activity.XFJRSearchResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1005
+-keep class com.bocop.xfjr.activity.XfjrIndexActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1032
+-keep class com.bocop.xfjr.activity.XfjrPreViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1024
+-keep class com.bocop.xfjr.activity.customer.XFJRBusinessDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1017
+-keep class com.bocop.xfjr.activity.customer.XFJRMyBusinessActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1037
+-keep class com.bocop.xfjr.activity.customer.XfjrMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1029
+-keep class com.bocop.xfjr.activity.merchant.XFJRFilterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1020
+-keep class com.bocop.xfjr.activity.merchant.XFJRMyBusinessActivity { <init>(...); }
+
+# view res/layout/xfjr_item_pretrial_common_new.xml #generated:27
+-keep class com.bocop.xfjr.view.MyListView { <init>(...); }
+
+# view res/layout/xfjr_item_pretrial_home.xml #generated:356
+# view res/layout/xfjr_item_pretrial_home_new.xml #generated:488
+# view res/layout/xfjr_layout_house_property_info.xml #generated:369
+# view res/layout/xfjr_viewstub_instalment_home.xml #generated:66
+# view res/layout/xfjr_viewstub_manager.xml #generated:154
+# view res/layout/xfjr_viewstub_manager.xml #generated:179
+# view res/layout/xfjr_viewstub_manager.xml #generated:210
+# view res/layout/xfjr_viewstub_manager.xml #generated:235
+# view res/layout/xfjr_viewstub_manager.xml #generated:280
+# view res/layout/xfjr_viewstub_manager.xml #generated:305
+-keep class com.bocop.xfjr.view.MyTaskView { <init>(...); }
+
+# view res/layout/xfjr_activity_business_detail.xml #generated:58
+# view res/layout/xfjr_activity_customer_application.xml #generated:21
+# view res/layout/xfjr_activity_merchant_application.xml #generated:21
+-keep class com.bocop.xfjr.view.NoScrollViewPager { <init>(...); }
+
+# view res/layout/xfjr_fragment_detail_add_data_info.xml #generated:115
+# view res/layout/xfjr_fragment_detail_add_data_info.xml #generated:137
+# view res/layout/xfjr_fragment_detail_add_data_info.xml #generated:165
+# view res/layout/xfjr_fragment_detail_add_data_info.xml #generated:37
+# view res/layout/xfjr_fragment_detail_add_data_info.xml #generated:59
+# view res/layout/xfjr_fragment_fraud_detection1.xml #generated:112
+# view res/layout/xfjr_fragment_fraud_detection1.xml #generated:195
+# view res/layout/xfjr_fragment_fraud_detection1.xml #generated:237
+# view res/layout/xfjr_fragment_fraud_detection1.xml #generated:68
+# view res/layout/xfjr_fragment_further_info.xml #generated:114
+# view res/layout/xfjr_fragment_further_info.xml #generated:69
+# view res/layout/xfjr_fragment_pretrial_basic_info.xml #generated:591
+# view res/layout/xfjr_layout_authorization.xml #generated:58
+# view res/layout/xfjr_layout_authorization.xml #generated:80
+# view res/layout/xfjr_layout_group_photo_info_pre.xml #generated:45
+-keep class com.bocop.xfjr.view.RoundImageView { <init>(...); }
+
+# view res/layout/xfjr_activity_login.xml #generated:106
+# view res/layout/xfjr_activity_login.xml #generated:50
+# view res/layout/xfjr_fragment_fraud_detection2.xml #generated:57
+# view res/layout/xfjr_fragment_fraud_detection5.xml #generated:119
+# view res/layout/xfjr_fragment_fraud_detection5.xml #generated:71
+# view res/layout/xfjr_fragment_new_application.xml #generated:167
+# view res/layout/xfjr_fragment_new_application.xml #generated:207
+# view res/layout/xfjr_fragment_new_application.xml #generated:345
+# view res/layout/xfjr_fragment_pretrial_basic_info.xml #generated:109
+# view res/layout/xfjr_fragment_pretrial_basic_info.xml #generated:296
+# view res/layout/xfjr_fragment_pretrial_basic_info.xml #generated:446
+# view res/layout/xfjr_fragment_pretrial_basic_info.xml #generated:470
+# view res/layout/xfjr_fragment_pretrial_basic_info.xml #generated:495
+# view res/layout/xfjr_fragment_pretrial_basic_info.xml #generated:519
+# view res/layout/xfjr_fragment_pretrial_basic_info.xml #generated:84
+# view res/layout/xfjr_item_addhome.xml #generated:148
+# view res/layout/xfjr_item_addhome.xml #generated:31
+# view res/layout/xfjr_item_pretrial_common.xml #generated:152
+# view res/layout/xfjr_item_pretrial_common_new.xml #generated:120
+# view res/layout/xfjr_item_pretrial_home.xml #generated:185
+# view res/layout/xfjr_item_pretrial_home.xml #generated:236
+# view res/layout/xfjr_item_pretrial_home.xml #generated:324
+# view res/layout/xfjr_item_pretrial_home.xml #generated:97
+# view res/layout/xfjr_item_pretrial_home_new.xml #generated:353
+# view res/layout/xfjr_item_pretrial_home_new.xml #generated:88
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:1016
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:1045
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:117
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:146
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:246
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:275
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:333
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:362
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:434
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:463
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:492
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:647
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:676
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:705
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:858
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:887
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:916
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:122
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:251
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:330
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:356
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:422
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:606
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:791
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:920
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:96
+# view res/layout/xfjr_item_pretrial_social.xml #generated:123
+# view res/layout/xfjr_layout_public_found_info.xml #generated:81
+# view res/layout/xfjr_layout_social_charity_info.xml #generated:87
+# view res/layout/xfjr_viewstub_instalment_common.xml #generated:90
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:150
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:179
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:306
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:335
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:364
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:515
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:544
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:573
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:63
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:674
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:703
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:92
+# view res/layout/xfjr_viewstub_instalment_spouse.xml #generated:120
+# view res/layout/xfjr_viewstub_instalment_spouse.xml #generated:62
+# view res/layout/xfjr_viewstub_instalment_spouse.xml #generated:91
+-keep class com.bocop.xfjr.view.XFJRClearEditText { <init>(...); }
+
+# view res/layout/xfjr_fragment_pretrial_basic_info.xml #generated:188
+# view res/layout/xfjr_item_house_property_info.xml #generated:284
+# view res/layout/xfjr_item_house_property_info.xml #generated:85
+# view res/layout/xfjr_item_pretrial_common_new.xml #generated:245
+# view res/layout/xfjr_item_pretrial_common_new.xml #generated:297
+# view res/layout/xfjr_item_pretrial_home_new.xml #generated:114
+# view res/layout/xfjr_item_pretrial_home_new.xml #generated:274
+# view res/layout/xfjr_item_pretrial_home_new.xml #generated:379
+# view res/layout/xfjr_item_pretrial_housing_loan.xml #generated:127
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:147
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:276
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:448
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:632
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:816
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:945
+# view res/layout/xfjr_item_pretrial_social.xml #generated:254
+# view res/layout/xfjr_item_pretrial_social.xml #generated:313
+# view res/layout/xfjr_layout_house_property_info.xml #generated:102
+# view res/layout/xfjr_layout_house_property_info.xml #generated:301
+# view res/layout/xfjr_layout_public_found_info.xml #generated:206
+# view res/layout/xfjr_layout_public_found_info.xml #generated:258
+# view res/layout/xfjr_layout_social_charity_info.xml #generated:218
+# view res/layout/xfjr_layout_social_charity_info.xml #generated:277
+-keep class com.bocop.xfjr.view.XFJRDecimalClearEditText { <init>(...); }
+
+# view res/layout/xfjr_fragment_new_application.xml #generated:247
+# view res/layout/xfjr_fragment_new_application.xml #generated:287
+# view res/layout/xfjr_fragment_pretrial_basic_info.xml #generated:214
+# view res/layout/xfjr_item_house_property_info.xml #generated:255
+# view res/layout/xfjr_item_house_property_info.xml #generated:320
+# view res/layout/xfjr_item_pretrial_common.xml #generated:209
+# view res/layout/xfjr_item_pretrial_common_new.xml #generated:219
+# view res/layout/xfjr_item_pretrial_common_new.xml #generated:271
+# view res/layout/xfjr_item_pretrial_home_new.xml #generated:247
+# view res/layout/xfjr_item_pretrial_housing_loan.xml #generated:100
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:1074
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:175
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:304
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:521
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:734
+# view res/layout/xfjr_item_pretrial_ordinary.xml #generated:945
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:197
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:303
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:498
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:683
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:866
+# view res/layout/xfjr_item_pretrial_ordinary_new.xml #generated:971
+# view res/layout/xfjr_item_pretrial_social.xml #generated:222
+# view res/layout/xfjr_item_pretrial_social.xml #generated:281
+# view res/layout/xfjr_layout_house_property_info.xml #generated:272
+# view res/layout/xfjr_layout_house_property_info.xml #generated:337
+# view res/layout/xfjr_layout_public_found_info.xml #generated:180
+# view res/layout/xfjr_layout_public_found_info.xml #generated:232
+# view res/layout/xfjr_layout_social_charity_info.xml #generated:186
+# view res/layout/xfjr_layout_social_charity_info.xml #generated:245
+# view res/layout/xfjr_viewstub_instalment_common.xml #generated:165
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:121
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:393
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:603
+# view res/layout/xfjr_viewstub_instalment_ordinary.xml #generated:732
+# view res/layout/xfjr_viewstub_instalment_spouse.xml #generated:149
+-keep class com.bocop.xfjr.view.XFJRMoneyClearEditText { <init>(...); }
+
+# view res/layout/xfjr_viewstub_custom.xml #generated:168
+-keep class com.bocop.xfjr.view.brokelineview.BrokenLineChartView { <init>(...); }
+
+# view res/layout/xfjr_widget_horizontal_stepsview.xml #generated:7
+-keep class com.bocop.xfjr.view.horizontalstepsview.HorizontalStepsViewIndicator { <init>(...); }
+
+# view res/layout/xfjr_widget_vertical_stepsview.xml #generated:8
+-keep class com.bocop.xfjr.view.horizontalstepsview.VerticalStepViewIndicator { <init>(...); }
+
+# view res/layout/xfjr_activity_business_detail.xml #generated:45
+# view res/layout/xfjr_activity_customer_application.xml #generated:9
+# view res/layout/xfjr_activity_main_business.xml #generated:16
+# view res/layout/xfjr_activity_merchant_application.xml #generated:9
+-keep class com.bocop.xfjr.view.indicator.TrackIndicatorView { <init>(...); }
+
+# view res/layout/xfjr_activity_pre_view.xml #generated:11
+-keep class com.bocop.xfjr.view.photoview.PhotoView { <init>(...); }
+
+# view res/layout/xfjr_activity_application.xml #generated:19
+-keep class com.bocop.xfjr.view.stepview.StepView { <init>(...); }
+
+# view AndroidManifest.xml #generated:469
+-keep class com.bocop.xms.activity.AtmActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:942
+-keep class com.bocop.xms.activity.CustomRemindActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:391
+-keep class com.bocop.xms.activity.ExchangeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:379
+-keep class com.bocop.xms.activity.FinanceAgrementActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:375
+-keep class com.bocop.xms.activity.FinanceSignContractActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:489
+-keep class com.bocop.xms.activity.FlightActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:474
+-keep class com.bocop.xms.activity.FundActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:927
+-keep class com.bocop.xms.activity.GuideActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:479
+-keep class com.bocop.xms.activity.InvestActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:351
+-keep class com.bocop.xms.activity.MessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:459
+-keep class com.bocop.xms.activity.MetalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:932
+-keep class com.bocop.xms.activity.MyMessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:464
+-keep class com.bocop.xms.activity.OrgActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:937
+-keep class com.bocop.xms.activity.PayRemindActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:396
+-keep class com.bocop.xms.activity.RateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:915
+-keep class com.bocop.xms.activity.RemindManageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:371
+-keep class com.bocop.xms.activity.SignContractActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:383
+-keep class com.bocop.xms.activity.SignContractCompleteActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:363
+-keep class com.bocop.xms.activity.SignOverViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:484
+-keep class com.bocop.xms.activity.TrainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:387
+-keep class com.bocop.xms.activity.UserManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:367
+-keep class com.bocop.xms.activity.XmsFirstActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:911
+-keep class com.bocop.xms.activity.XmsMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:401
+-keep class com.bocop.xms.activity.XmsWebActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:359
+-keep class com.bocop.xms.activity.YbtActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:355
+-keep class com.bocop.xms.activity.ZqtActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1065
+-keep class com.bocop.xms.receiver.BootAlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:1092
+-keep class com.bocop.xms.receiver.MyReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:1144
+-keep class com.bocop.xms.receiver.NotificationReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:1061
+-keep class com.bocop.xms.receiver.TickAlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:960
+-keep class com.bocop.xms.service.AlarmService { <init>(...); }
+
+# view res/layout/layout_progress_dialog.xml #generated:38
+-keep class com.bocop.xms.view.ProgressBarCircular { <init>(...); }
+
+# view res/layout/xms_fragment_my_message.xml #generated:34
+-keep class com.bocop.xms.view.PullToRefreshListView { <init>(...); }
+
+# view res/layout/xms_popwindow_timepick.xml #generated:40
+# view res/layout/xms_popwindow_timepick.xml #generated:46
+# view res/layout/xms_popwindow_timepick.xml #generated:52
+# view res/layout/xms_popwindow_timepick.xml #generated:57
+# view res/layout/xms_popwindow_timepick.xml #generated:62
+-keep class com.bocop.xms.widget.WheelView { <init>(...); }
+
+# view AndroidManifest.xml #generated:966
+-keep class com.bocop.xyd.activity.Xyd_ActivateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:972
+-keep class com.bocop.xyd.activity.Xyd_ApplyResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:969
+-keep class com.bocop.xyd.activity.Xyd_ApplyingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:963
+-keep class com.bocop.xyd.activity.Xyd_IndexActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:975
+-keep class com.bocop.xyd.activity.Xyd_NowRepayingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:978
+-keep class com.bocop.xyd.activity.Xyd_PactForLoansActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:981
+-keep class com.bocop.xyd.activity.Xyd_RepayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:984
+-keep class com.bocop.xyd.activity.Xyd_RepayActivity_New { <init>(...); }
+
+# view AndroidManifest.xml #generated:987
+-keep class com.bocop.xyd.activity.Xyd_RepayAheadOfTimeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:990
+-keep class com.bocop.xyd.activity.Xyd_UseMoneyDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:993
+-keep class com.bocop.xyd.activity.Xyd_WebActivity { <init>(...); }
+
+# view res/layout/xyd_activity_index.xml #generated:113
+# view res/layout/xyd_activity_index.xml #generated:66
+-keep class com.bocop.xyd.view.ColorArcProgressBar { <init>(...); }
+
+# view res/layout/xyd_dialog_paying.xml #generated:19
+-keep class com.bocop.xyd.view.PasswordInputView { <init>(...); }
+
+# view AndroidManifest.xml #generated:951
+-keep class com.bocop.yfx.activity.ConsultationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:582
+-keep class com.bocop.yfx.activity.EShareActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:834
+-keep class com.bocop.yfx.activity.FundQueryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:524
+-keep class com.bocop.yfx.activity.LoanActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:520
+-keep class com.bocop.yfx.activity.LoanMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:577
+-keep class com.bocop.yfx.activity.StageMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:586
+-keep class com.bocop.yfx.activity.TrainsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:552
+-keep class com.bocop.yfx.activity.loanprodetail.InfoAccreditActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:548
+-keep class com.bocop.yfx.activity.loanprodetail.InfoSubmitResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:561
+-keep class com.bocop.yfx.activity.loanprodetail.LimitTreatyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:538
+-keep class com.bocop.yfx.activity.loanprodetail.PersonalInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:543
+-keep class com.bocop.yfx.activity.loanprodetail.PreviewAuthentInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:533
+-keep class com.bocop.yfx.activity.loanprodetail.RealNameAuthentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:557
+-keep class com.bocop.yfx.activity.loanprodetail.ReferenceAccreditActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:565
+-keep class com.bocop.yfx.activity.loanprodetail.WorkUnitInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:569
+-keep class com.bocop.yfx.activity.myloan.PickAffirmActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:573
+-keep class com.bocop.yfx.activity.myloan.PickUpAffirmActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:624
+-keep class com.bocop.yfx.activity.myloan.RecordsListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:614
+-keep class com.bocop.yfx.activity.myloan.RefundInAdvanceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:619
+-keep class com.bocop.yfx.activity.myloan.RefundSuccessActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:528
+-keep class com.bocop.yfx.activity.myloan.RemainingSumPickUpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:610
+-keep class com.bocop.yfx.activity.stageprodetail.ApplySuccessActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:590
+-keep class com.bocop.yfx.activity.stageprodetail.BindCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:595
+-keep class com.bocop.yfx.activity.stageprodetail.CashApplyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:605
+-keep class com.bocop.yfx.activity.stageprodetail.OrderAffirmActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:600
+-keep class com.bocop.yfx.activity.stageprodetail.PreviewActivity { <init>(...); }
+
+# view res/layout/yfx_activity_cash_apply.xml #generated:100
+-keep class com.bocop.yfx.view.DiscreteSeekBar { <init>(...); }
+
+# view res/layout/yfx_fragment_loan_pro_detail.xml #generated:129
+# view res/layout/yfx_fragment_loan_pro_detail.xml #generated:148
+# view res/layout/yfx_fragment_loan_pro_detail.xml #generated:167
+# view res/layout/yfx_fragment_loan_pro_detail.xml #generated:186
+# view res/layout/yfx_fragment_loan_pro_detail.xml #generated:299
+# view res/layout/yfx_fragment_loan_pro_detail.xml #generated:330
+# view res/layout/yfx_fragment_loan_pro_detail.xml #generated:640
+# view res/layout/yfx_fragment_loan_pro_detail.xml #generated:89
+# view res/layout/yfx_fragment_useloan.xml #generated:155
+-keep class com.bocop.yfx.view.JustifyTextView { <init>(...); }
+
+# view res/layout/activity_dynamic_pswd.xml #generated:31
+# view res/layout/yfx_activity_refund_in_advance.xml #generated:388
+-keep class com.bocop.yfx.view.SlideSwitch { <init>(...); }
+
+# view AndroidManifest.xml #generated:659
+-keep class com.bocop.zyyr.activity.ApplyAffirmActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:655
+-keep class com.bocop.zyyr.activity.ApplyLoanActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:671
+-keep class com.bocop.zyyr.activity.AuthentInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:676
+-keep class com.bocop.zyyr.activity.AuthentInfoCheckActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:643
+-keep class com.bocop.zyyr.activity.FinanceMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:667
+-keep class com.bocop.zyyr.activity.LoanDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:663
+-keep class com.bocop.zyyr.activity.MyLoanActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:651
+-keep class com.bocop.zyyr.activity.ProductDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:647
+-keep class com.bocop.zyyr.activity.UserCenterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:905
+-keep class com.bocop.zyyr.fpt.FPTActivity { <init>(...); }
+
+# view res/layout/zyyr_activity_loan_details.xml #generated:134
+# view res/layout/zyyr_activity_loan_details.xml #generated:44
+# view res/layout/zyyr_activity_loan_details.xml #generated:88
+-keep class com.bocop.zyyr.view.CircleView { <init>(...); }
+
+# view res/layout/xfjr_step_indicator.xml #generated:6
+-keep class com.example.formssi.facefram.view.StepView { <init>(...); }
+
+# view AndroidManifest.xml #generated:1051
+-keep class com.megvii.demo.BankCardScanActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:1055
+-keep class com.megvii.demo.ResultActivity { <init>(...); }
+
+# view res/layout/bankcardscan_layout.xml #generated:13
+-keep class com.megvii.demo.util.BankCardIndicator { <init>(...); }
+
+# view res/layout/bankcardscan_layout.xml #generated:19
+-keep class com.megvii.demo.util.BankIDCardIndicator { <init>(...); }
+
+# view res/layout/activity_resutl.xml #generated:42
+-keep class com.megvii.demo.util.MoreEditView { <init>(...); }
+
+# view AndroidManifest.xml #generated:1042
+-keep class com.megvii.idcardlib.IDCardScanActivity { <init>(...); }
+
+# view res/layout/idcardscan_layout.xml #generated:69
+-keep class com.megvii.idcardlib.util.MyTextView { <init>(...); }
+
+# view res/layout/idcardscan_layout.xml #generated:36
+-keep class com.megvii.idcardlib.view.AutoRatioImageview { <init>(...); }
+
+# view res/layout/idcardscan_layout.xml #generated:19
+-keep class com.megvii.idcardlib.view.IDCardIndicator { <init>(...); }
+
+# view res/layout/idcardscan_layout.xml #generated:12
+-keep class com.megvii.idcardlib.view.IDCardNewIndicator { <init>(...); }
+
+# view res/layout/liveness_layout.xml #generated:17
+-keep class com.megvii.livenesslib.FaceMask { <init>(...); }
+
+# view AndroidManifest.xml #generated:1046
+-keep class com.megvii.livenesslib.LivenessActivity { <init>(...); }
+
+# view res/layout/liveness_layout.xml #generated:13
+# view res/layout/liveness_layout.xml #generated:23
+-keep class com.megvii.livenesslib.view.AutoRatioImageview { <init>(...); }
+
+# view res/layout/liveness_layout.xml #generated:107
+-keep class com.megvii.livenesslib.view.CircleProgressBar { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.mob.tools.MobUIShell { <init>(...); }
+
+# view res/layout/activity_trafficassmain.xml #generated:64
+-keep class com.nhaarman.listviewanimations.itemmanipulation.DynamicListView { <init>(...); }
+
+# view res/layout/list_row_dynamiclistview.xml #generated:23
+-keep class com.nhaarman.listviewanimations.itemmanipulation.dragdrop.GripView { <init>(...); }
+
+# view res/layout/activity_trafficmypeccancy.xml #generated:9
+-keep class com.viewpagerindicator.TabPageIndicator { <init>(...); }
+
+# view res/layout/xms_activity_guide.xml #generated:6
+-keep class pl.droidsonroids.gif.GifImageView { <init>(...); }
+
+# onClick res/layout/xfjr_activity_pre_view.xml #generated:18
+-keepclassmembers class * { *** back(...); }
+
+# onClick res/layout/liveness_layout.xml #generated:137
+-keepclassmembers class * { *** backClick(...); }
+

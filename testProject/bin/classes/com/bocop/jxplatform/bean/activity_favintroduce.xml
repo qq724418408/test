@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_activity_title1" />
+
+    <WebView
+        android:id="@+id/wv_common"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="20dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:text="【产品介绍】\n
+中银ETC赣通记账卡是中国银行江西省分行与江西省高速公路联网管理中心联合发行的，记载用户信息，用于非现金支付高速公路通行费的专用IC记账卡。我行ETC产品采用“绑定信用卡扣款账户”模式，先通行后扣款。\n【产品特点】\n
+便利：免于现金支付，关联银行卡扣款，安全又方便
+快捷：全国ETC专属车道，免除排队等候，出入高速无须等待
+环保：大大减少了由于车辆怠速等待缴费带来的燃油消耗
+实惠：9.8折基础上9.5折，最低低至9.3折，最优惠的通行费折扣\n【办理条件】\n
+
+1、身份证  \n
+2、车辆行驶证（非营运客车）\n
+【办理流程】\n
+中国银行信用卡客户办理ETC业务可尊享“现场办理现场安装”快捷服务，立等可取。无中行信用卡有车一族客户可进行“现场办理预约安装”服务。\n
+
+1、我行ETC专柜为您开立信用卡或直接绑定已有信用卡（勾连借记卡自动还款），并激活电子标签和ETC记账卡。我行工作人员为您的爱车安装好电子标签后即可在高速收费站ETC车道通行。\n
+
+2、开通中行手机银行，进行一笔金融交易，即可获赠精美礼品一份。数量有限，先到先得。\n
+
+3、下载中银易商客户端，体验一笔扫码转账，即可获赠百兆手机流量。更可参与“中行送惊喜，支付拆红包”活动，赢取iPad mini4、电商消费券等超值大奖。\n
+
+
+【尊享优惠】\n
+
+1、赠送电子标签
+成功到中国银行办理赣通ETC卡，即可免费获取价值300元赣通卡OBU（电子标签）一份，出入高速无需等待，畅通无阻。\n
+
+2、全省高速通行费93折
+活动期间，享赣通卡98折优惠基础上再打95折，最低低至93折优惠。\n
+
+3、有信用，行天下
+畅行全国，先通行,后付费,享受最长50天免息付款期。在到期还款日前完成自动还款，一次设定，一劳永逸。\n
+
+4、加入中行“车惠通”，驰行全省汽车服务网络
+海量汽车服务，先到先得。新年期间，更有大礼包等您拿！\n
+
+5、中国银行爱驾汽车信用卡加油享1.5倍积分
+使用中国银行爱驾汽车信用卡在全国任意加油站加油，即可累积0.5倍交易积分（加油站以商户代码5541、5542为准）。\n
+
+6、中国银行爱驾汽车信用卡尊享中银保特惠
+使用中国银行爱驾汽车信用卡购买中银保险有限公司车险且保费达3000元，可享受其提供的免费代办驾驶证年检及驾驶证换证、代理验车等增值服务。\n
+
+7、中银手机APP，惊喜送不停\n（1）手机银行转账全免费、专属高收益理财产品是你财富保值增值好管家；\n
+（2）中银易商“易惠通”APP，随时查询交通违章，可以在线生成罚单并缴费，免去您的奔波之苦；\n（3）中银易商理财，微信关注即可投资，可当日买入卖出，收益率高于活动存款的10倍，是您流动资金增值的好帮手。\n
+
+8、最惠中行日，周末放价不放假
+每逢周日，持中国银行信用卡享格瓦拉十元观影，苏宁易购、屈臣氏满100减30，美团网满30减15等优惠。"
+                android:textColor="@color/color_666666"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/tv_sq"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_button"
+        android:text="我要申请"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

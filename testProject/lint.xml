@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/xfjr_fragment_pretrial_basic_info.xml" />
+    </issue>
+    <issue id="DisableBaselineAlignment">
+        <ignore path="res/layout/xfjr_fragment_pretrial_basic_info.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/xfjr_fragment_pretrial_basic_info.xml" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/bocop/xfjr/view/indicator/TrackIndicatorView.java" />
+    </issue>
+    <issue id="RtlHardcoded">
+        <ignore path="res/layout/xfjr_fragment_pretrial_basic_info.xml" />
+    </issue>
+    <issue id="SmallSp">
+        <ignore path="res/layout/xfjr_fragment_pretrial_basic_info.xml" />
+    </issue>
+    <issue id="TooManyViews">
+        <ignore path="res/layout/xfjr_fragment_pretrial_basic_info.xml" />
+    </issue>
+    <issue id="UselessLeaf">
+        <ignore path="res/layout/xfjr_fragment_pretrial_basic_info.xml" />
+    </issue>
+</lint>
